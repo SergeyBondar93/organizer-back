@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "mssql.connections": [
+      {
+          "server": ".",
+          "database": "",
+          "authenticationType": "SqlLogin",
+          "user": "sa",
+          "password": "",
+          "emptyPasswordInput": false,
+          "savePassword": true,
+          "profileName": "sa"
+      },
+      {
+          "server": "localhost,1433",
+          "database": "",
+          "authenticationType": "SqlLogin",
+          "user": "sa",
+          "password": "",
+          "emptyPasswordInput": false,
+          "savePassword": true
+      }
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "update.enableWindowsBackgroundUpdates": false
+}
